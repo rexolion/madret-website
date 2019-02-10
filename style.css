@@ -1,0 +1,75 @@
+.Header {
+    width: 100%;
+    height: 90px;
+    position: relative;
+}
+
+.Header-container {
+    padding: 0 50px 0 50px;
+    display: flex;
+    justify-content: space-between;
+}
+body {
+    color: #fff;
+}
+
+.Logo {
+    height: 80px;
+    line-height: 80px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.Header-bullet {
+    height: 90px;
+    line-height: 90px;
+}
+
+.Header-bullet-item:hover {
+    color: #000000;
+    font-weight: 400;
+}
+
+.Header-bullet-item {
+    font-weight: 400;
+    padding: 0 30px 0 0;
+}
+
+.Heading_mdBord {
+    border-left: solid 5px;
+    padding-left: 20px;
+    font-size: 60px;
+    font-weight: 400;
+    margin: 30px 0 15px 0;
+}
+
+.Video-text {
+    width: 40%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    margin-left: 100px;
+}
+
+.Video {
+    min-width: 100%;
+    transform: scale(1.1);
+    min-height: 100%;
+    filter: blur(10px);
+    position: fixed;
+}
+
+.Heading_md {
+    width: 100%;
+    margin: 0;
+    font-size: 90px;
+    font-weight: 500;
+}
+
+.Para_md {
+    width: 100%;
+    font-size: 30px;
+}
